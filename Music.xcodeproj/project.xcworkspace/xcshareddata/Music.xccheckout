@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1DB53B6A-0409-4A32-8112-36BF8B269344</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E412741C3376491D95DF81B2CDD9EE58B1EFFD9C</key>
+		<string>github.com:maweiyi/Music.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Music.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E412741C3376491D95DF81B2CDD9EE58B1EFFD9C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:maweiyi/Music.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E412741C3376491D95DF81B2CDD9EE58B1EFFD9C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E412741C3376491D95DF81B2CDD9EE58B1EFFD9C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Music</string>
+		</dict>
+	</array>
+</dict>
+</plist>
