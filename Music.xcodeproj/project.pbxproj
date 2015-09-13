@@ -14,6 +14,7 @@
 		E4AE87D91B9EEE550020175F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4AE87D81B9EEE550020175F /* Images.xcassets */; };
 		E4AE87DC1B9EEE550020175F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4AE87DA1B9EEE550020175F /* LaunchScreen.xib */; };
 		E4AE87E81B9EEE560020175F /* MusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AE87E71B9EEE560020175F /* MusicTests.swift */; };
+		E4EB10F01BA45CC600AD53C6 /* TopPlayLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EB10EF1BA45CC600AD53C6 /* TopPlayLists.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		E4AE87E11B9EEE560020175F /* MusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4AE87E61B9EEE560020175F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4AE87E71B9EEE560020175F /* MusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTests.swift; sourceTree = "<group>"; };
+		E4EB10EF1BA45CC600AD53C6 /* TopPlayLists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopPlayLists.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +81,9 @@
 		E4AE87CB1B9EEE550020175F /* Music */ = {
 			isa = PBXGroup;
 			children = (
-				E4AE87CE1B9EEE550020175F /* AppDelegate.swift */,
-				E4AE87D31B9EEE550020175F /* ViewController.swift */,
-				E4AE87D51B9EEE550020175F /* Main.storyboard */,
-				E4AE87D81B9EEE550020175F /* Images.xcassets */,
-				E4AE87DA1B9EEE550020175F /* LaunchScreen.xib */,
-				E4AE87D01B9EEE550020175F /* Music.xcdatamodeld */,
+				E4EB10F31BA45D2F00AD53C6 /* Others */,
+				E4EB10F21BA45D0100AD53C6 /* ViewControllers */,
+				E4EB10F11BA45CD500AD53C6 /* Modals */,
 				E4AE87CC1B9EEE550020175F /* Supporting Files */,
 			);
 			path = Music;
@@ -113,6 +112,34 @@
 				E4AE87E61B9EEE560020175F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4EB10F11BA45CD500AD53C6 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB10EF1BA45CC600AD53C6 /* TopPlayLists.swift */,
+			);
+			name = Modals;
+			sourceTree = "<group>";
+		};
+		E4EB10F21BA45D0100AD53C6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E4AE87D31B9EEE550020175F /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E4EB10F31BA45D2F00AD53C6 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				E4AE87CE1B9EEE550020175F /* AppDelegate.swift */,
+				E4AE87D51B9EEE550020175F /* Main.storyboard */,
+				E4AE87D81B9EEE550020175F /* Images.xcassets */,
+				E4AE87DA1B9EEE550020175F /* LaunchScreen.xib */,
+				E4AE87D01B9EEE550020175F /* Music.xcdatamodeld */,
+			);
+			name = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4AE87D41B9EEE550020175F /* ViewController.swift in Sources */,
+				E4EB10F01BA45CC600AD53C6 /* TopPlayLists.swift in Sources */,
 				E4AE87CF1B9EEE550020175F /* AppDelegate.swift in Sources */,
 				E4AE87D21B9EEE550020175F /* Music.xcdatamodeld in Sources */,
 			);
@@ -413,6 +441,7 @@
 				E4AE87ED1B9EEE560020175F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4AE87EE1B9EEE560020175F /* Build configuration list for PBXNativeTarget "MusicTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +450,7 @@
 				E4AE87F01B9EEE560020175F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

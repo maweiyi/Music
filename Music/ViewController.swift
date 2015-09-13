@@ -26,6 +26,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         self.tableView.dataSource = self
         tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "Cell")
         
+        //从服务端请求数据
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,7 +36,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return 10
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -42,11 +44,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         //var layer: CALayer
         cell.imageView?.image = UIImage(named: "headerImage")
         cell.imageView?.layer.cornerRadius = 30
-        
-        print("\(cell.imageView?.image?.size.width)")
         cell.imageView?.clipsToBounds = true
         
         cell.textLabel?.text = "maweiyi"
+        
+        
         return cell as UITableViewCell
     }
     
@@ -57,8 +59,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return 88.0
     }
-    
+    //从服务端获取数据
+    func getDataFromServer() {
 
+        
+    }
 
 }
 
