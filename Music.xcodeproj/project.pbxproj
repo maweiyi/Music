@@ -186,6 +186,7 @@
 		E4AE87C11B9EEE550020175F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = CodeMonkey;
 				TargetAttributes = {
